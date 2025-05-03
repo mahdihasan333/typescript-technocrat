@@ -19,7 +19,12 @@
     const booleanArray3: GenericArray<boolean> = [true, false, false]
     console.log(`Boolean Array1 ${booleanArray1} - Boolean Array2 ${booleanArray2} - Boolean Array3 ${booleanArray3}`)
 
-    const user: GenericArray<{name: string; age: number}> = [
+    interface User {
+        name: string;
+        age: number
+    }
+
+    const user: GenericArray<User> = [
         {
             name: 'Mahdi',
             age: 21
