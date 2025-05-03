@@ -48,8 +48,16 @@
         }
     }
 
-    const student1 = addCourseToStudent({name: 'Mr X', email: 'X@gmail.com', devType: 'NLWD'})
-    const student2 = addCourseToStudent({name: 'Mr Y', email: 'Y@gmail.com', hasWatch: 'Apple Watch'})
+    const student1 = addCourseToStudent({
+        name: 'Mr X',
+        email: 'X@gmail.com',
+        devType: 'NLWD'
+    })
+    const student2 = addCourseToStudent({
+        name: 'Mr Y',
+        email: 'Y@gmail.com',
+        hasWatch: 'Apple Watch'
+    })
 
     console.log(student1)
     console.log(student2)
