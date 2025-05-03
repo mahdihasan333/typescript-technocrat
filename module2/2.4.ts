@@ -56,14 +56,15 @@
             model: 'Apple Watch Series 9 GPS 45-mm Pink Aluminium Case with Light Pink Sport Band',
             heartTrack: true,
             sleepTrack: true,
-        }
+        },
         bike: {
             model: 'Yamaha',
             engineCapacity: '100cc'
         }
     }
 
-
+    console.log(`Poor Developer ${poorDeveloper}`)
+    console.log(`Rich Developer ${richDeveloper}`)
 
 
 
