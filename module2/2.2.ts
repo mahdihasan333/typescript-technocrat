@@ -22,7 +22,8 @@
             name: 'Mahdi',
             age: 21,
             role: 'Student'
-        }
+    }
+    console.log('User1', user1)
 
 
     
@@ -37,6 +38,7 @@
     }
 
     const rollNumber1 : Roll1 = [1, 2, 3]
+    console.log('Roll Number', rollNumber1)
 
 
 
@@ -50,6 +52,12 @@
     const add : Add1 = (num1, num2) => num1 + num2
 
     const add2 : Add2 = (num1, num2) => num1 + num2
+
+    const result1 = add(10, 5)
+    const result2 = add2(5, 5)
+
+    console.log('Result1', result1)
+    console.log('Result2',result2)
 
 
 }
