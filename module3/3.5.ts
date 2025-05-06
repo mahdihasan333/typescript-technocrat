@@ -12,11 +12,11 @@
             this._balance = balance
         }
 
-        addDeposit(amount: number){
+        public addDeposit(amount: number){
             this._balance = this._balance + amount
         }
 
-        getBalance(){
+        public getBalance(){
             return this._balance
         }
 
